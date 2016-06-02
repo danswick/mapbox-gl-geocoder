@@ -1,3 +1,5 @@
+*this fork has swapped in the [Mapzen Search](https://mapzen.com/documentation/search/) API.*
+
 Mapbox GL Geocoder
 ---
 
