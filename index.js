@@ -122,7 +122,7 @@ Geocoder.prototype = mapboxgl.util.inherit(mapboxgl.Control, {
     //
     //
     // adjust for mapzen results
-    this._typeahead.getItemValue = function(item) { return item.properties.name; };
+    this._typeahead.getItemValue = function(item) { return item.properties.label; };
 
     return el;
   },
