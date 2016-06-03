@@ -80,7 +80,7 @@ Geocoder.prototype = mapboxgl.util.inherit(mapboxgl.Control, {
       var selected = this._typeahead.selected;
       if (selected) {
         if (this.options.flyTo) {
-          if (selected.geometry.bbox) {
+          if (selected.bbox) {
             var bbox = selected.bbox;
             map.fitBounds([[bbox[0], bbox[1]],[bbox[2], bbox[3]]]);
           } else {
